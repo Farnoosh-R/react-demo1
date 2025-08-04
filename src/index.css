@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@theme{
+  --font-dancing: Dancing Script;
+}
+
 
 .nav-wrapper{
   @apply border-b py-3 px-5 md:border-none md:p-0;
@@ -15,6 +19,9 @@
 .btn{
   @apply bg-pink-500 hover:bg-pink-600 transition-all duration-500 cursor-pointer text-white rounded-lg px-3 py-2;
 }
+.btn-outline{
+  @apply bg-pink-100 hover:bg-pink-500 text-pink-500 hover:text-white border-1 border-pink-500;
+}
 .nav-btn{
   @apply hidden sm:flex;
 }
@@ -24,3 +31,4 @@
 .show-menu{
   @apply left-[5%];
 }
+
