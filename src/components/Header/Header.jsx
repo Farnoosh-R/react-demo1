@@ -1,7 +1,7 @@
 const Header = () => {
   return (
-    <div className="header">
-      <div className="w-full px-[12%] pt-[100px] flex gap-4 flex-col lg:flex-row">
+    <div className="header py-[100px]">
+      <div className="w-full px-[12%] flex gap-4 flex-col lg:flex-row">
         <div className="flex flex-col items-start gap-4 justify-center">
           <small className="text-4xl font-dancing">best sellers</small>
           <h2 className="text-4xl md:text-7xl font-medium text-pink-600">

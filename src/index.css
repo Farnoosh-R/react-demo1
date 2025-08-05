@@ -10,6 +10,7 @@
 }
 
 
+
 .nav-wrapper{
   @apply border-b py-3 px-5 md:border-none md:p-0;
 }
@@ -31,4 +32,15 @@
 .show-menu{
   @apply left-[5%];
 }
-
+section{
+  @apply w-full px-[12%] py-[80px]
+}
+section h2{
+  @apply text-5xl text-center w-full font-semibold inline-block; 
+}
+/* .card:hover{
+  @apply flex;
+} */
+.slide-text{
+  @apply w-full text-center font-semibold inline-block group-hover:hidden ;
+}
