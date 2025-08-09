@@ -32,35 +32,35 @@ const Category = () => {
                 >
                     <SwiperSlide>
                         <div className="card group w-[180px]">
-                            <img src="../../src/assets/category/icecream-cat3-min.jpg" className="w-full rounded-full mb-4" alt="" />
+                            <img src="images/category/icecream-cat3-min.jpg" className="w-full rounded-full mb-4" alt="" />
                             <span className="slide-text">Ice cream bar</span>
                             <span className="text-center w-full hidden group-hover:inline-block">2 products</span>
                         </div>
                     </SwiperSlide>
                                         <SwiperSlide>
                         <div className="card group w-[180px]">
-                            <img src="../../src/assets/category/icecream-cat4-min.jpg" className="w-full rounded-full mb-4" alt="" />
+                            <img src="images/category/icecream-cat4-min.jpg" className="w-full rounded-full mb-4" alt="" />
                             <span className="slide-text">Ice cream bar</span>
                             <span className="text-center w-full hidden group-hover:inline-block">2 products</span>
                         </div>
                     </SwiperSlide>
                                         <SwiperSlide>
                         <div className="card group w-[180px]">
-                            <img src="../../src/assets/category/icecream-cat11-min.jpg" className="w-full rounded-full mb-4" alt="" />
+                            <img src="images/category/icecream-cat11-min.jpg" className="w-full rounded-full mb-4" alt="" />
                             <span className="slide-text">Ice cream bar</span>
                             <span className="text-center w-full hidden group-hover:inline-block">2 products</span>
                         </div>
                     </SwiperSlide>
                                         <SwiperSlide>
                         <div className="card group w-[180px]">
-                            <img src="../../src/assets/category/icecream-cat6-min.jpg" className="w-full rounded-full mb-4" alt="" />
+                            <img src="images/category/icecream-cat6-min.jpg" className="w-full rounded-full mb-4" alt="" />
                             <span className="slide-text">Ice cream bar</span>
                             <span className="text-center w-full hidden group-hover:inline-block">2 products</span>
                         </div>
                     </SwiperSlide>
                                         <SwiperSlide>
                         <div className="card group w-[180px]">
-                            <img src="../../src/assets/category/icecream-cat9-min.jpg" className="w-full rounded-full mb-4" alt="" />
+                            <img src="images/category/icecream-cat9-min.jpg" className="w-full rounded-full mb-4" alt="" />
                             <span className="slide-text">Ice cream bar</span>
                             <span className="text-center w-full hidden group-hover:inline-block">2 products</span>
                         </div>

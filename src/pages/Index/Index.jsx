@@ -2,6 +2,7 @@ import Category from "../../components/Category/Category";
 import Header from "../../components/Header/Header";
 import Navbar from "../../components/Navbar/Navbar";
 import Offers from "../../components/Offers/Offers";
+import Popular from "../../components/Popular/Popular";
 
 const Index = () => {
   return (
@@ -10,6 +11,7 @@ const Index = () => {
         <Header />
         <Category />
         <Offers />
+        <Popular />
     </div>
   );
 };
