@@ -39,14 +39,14 @@ const Offers = () => {
         </div>
 
         <div className="offers-box-hor w-full lg:w-[33%] flex flex-col gap-10 h-[550px]">
-          <div className="h-[250px] w-full bg-[url(./images/offers/icecream-offer6.jpg)] bg-cover p-6 flex flex-col ga-2 text-white">
+          <div className="h-[250px] w-full bg-[url('./images/offers/icecream-offer6.jpg')] bg-cover p-6 flex flex-col ga-2 text-white">
             <h3 className="text-3xl">Best Selling</h3>
             <p className="pt-20">
               The 1# best <br />
               texture, low in calories
             </p>
           </div>
-          <div className="h-[250px] w-full bg-[url(./images/offers/icecream-offer8.jpg)] bg-cover p-6 flex flex-col ga-2 text-white">
+          <div className="h-[250px] w-full bg-[url('./images/offers/icecream-offer8.jpg')] bg-cover p-6 flex flex-col ga-2 text-white">
             <h3 className="text-3xl">Best Selling</h3>
             <p className="pt-20">
               Smooth and Creamy <br />
