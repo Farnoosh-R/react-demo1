@@ -6,7 +6,7 @@ function App() {
   
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-demo1">
     <Routes>
       <Route path='/' element={<Index />}/>
     </Routes>
