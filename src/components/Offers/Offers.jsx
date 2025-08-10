@@ -4,7 +4,7 @@ const Offers = () => {
   return (
     <section id="offers">
       <div className="flex gap-4 flex-wrap lg:flex-nowrap">
-        <div className="offers-box-ver w-full sm:w-[40%] lg:w-[33%] h-[550px] bg-[url(images/offers/icecream-offer1.jpg)] bg-cover p-6 flex-flex-col pt-6 text-white items-center">
+        <div className="offers-box-ver w-full sm:w-[40%] lg:w-[33%] h-[550px] bg-[url('/react-demo1/images/offers/icecream-offer1.jpg')] bg-cover p-6 flex-flex-col pt-6 text-white items-center">
           <small>Save 20% off</small>
           <h3>Summer 2025</h3>
           <p>
@@ -21,7 +21,7 @@ const Offers = () => {
           </button>
         </div>
 
-        <div className="offers-box-ver offers-box-ver w-full sm:w-[40%] lg:w-[33%] h-[550px] bg-[url(images/offers/icecream-offer3.jpg)] bg-cover p-6 flex-flex-col pt-6 text-white items-center">
+        <div className="offers-box-ver offers-box-ver w-full sm:w-[40%] lg:w-[33%] h-[550px] bg-[url('/react-demo1/images/offers/icecream-offer3.jpg')] bg-cover p-6 flex-flex-col pt-6 text-white items-center">
           <small className="text-2xl">Save 20% off</small>
           <h3>Summer 2025</h3>
           <p>
