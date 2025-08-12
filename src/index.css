@@ -9,13 +9,15 @@
   --font-dancing: Dancing Script;
 }
 
-
+*{
+  scroll-behavior: smooth;
+}
 
 .nav-wrapper{
   @apply border-b py-3 px-5 md:border-none md:p-0;
 }
 .navlink{
-  @apply font-medium hover:text-pink-500;
+  @apply font-bold hover:text-pink-500;
 }
 .btn{
   @apply bg-pink-500 hover:bg-pink-600 transition-all duration-500 cursor-pointer text-white rounded-lg px-3 py-2;
@@ -38,9 +40,6 @@ section{
 section h2{
   @apply text-5xl text-center w-full font-semibold inline-block; 
 }
-/* .card:hover{
-  @apply flex;
-} */
 .slide-text{
   @apply w-full text-center font-semibold inline-block group-hover:hidden ;
 }

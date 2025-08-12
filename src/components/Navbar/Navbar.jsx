@@ -14,28 +14,38 @@ const menuHandler = () => {
   return (
     <div className="navbar relative flex items-center justify-between px-[12%] h-[80px]">
       <div className="flex justify-center items-center">
-        <span className="font-medium text-pink-500">IceCream</span>
+        <a href="/" className="font-medium text-pink-500">IceCream</a>
       </div>
 
       <div ref={menu} className="absolute md:static top-[100%] left-[-100%] md:left-[0%] transition-all duration-500 z-999">
         <ul className="w-full flex flex-col md:flex-row gap-4 justify-center">
           <li className="nav-wrapper">
-            <NavLink className="navlink" to="/">Home</NavLink>
+            {/* <NavLink className="navlink" to="/">Home</NavLink> */}
+            <a className="font-bold" href="/">Home</a>
           </li>
           <li className="nav-wrapper">
-            <NavLink className="navlink" to="/category">Categoty</NavLink>
+            {/* <NavLink className="navlink" to="#category">Categoty</NavLink> */}
+            <a className="font-bold" href="#category">Category</a>
           </li>
           <li className="nav-wrapper">
-            <NavLink className="navlink" to="/popular">Popular</NavLink>
+            {/* <NavLink className="navlink" to="/popular">Popular</NavLink> */}
+            <a className="font-bold" href="#popular">Popular</a>
           </li>
           <li className="nav-wrapper">
-            <NavLink className="navlink" to="/shop">Shop</NavLink>
+            {/* <NavLink className="navlink" to="/shop">Shop</NavLink> */}
+            <a className="font-bold" href="#shop">Shop</a>
           </li>
           <li className="nav-wrapper">
-            <NavLink className="navlink" to="/testimonails">Testimonails</NavLink>
+            {/* <NavLink className="navlink" to="/testimonails">Testimonails</NavLink> */}
+            <a className="font-bold" href="#testimonials">Testimonails</a>
+          </li>
+            <li className="nav-wrapper">
+            <NavLink className="navlink" to="/aboutus">Aboutus</NavLink>
+            {/* <a className="font-bold" href="#">Contact</a> */}
           </li>
           <li className="nav-wrapper">
-            <NavLink className="navlink" to="/contact">Contact</NavLink>
+            {/* <NavLink className="navlink" to="/contact">Contact</NavLink> */}
+            <a className="font-bold" href="#footer">Contact</a>
           </li>
         </ul>
       </div>
