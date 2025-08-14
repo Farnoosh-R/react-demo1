@@ -4,6 +4,7 @@ import Index from './pages/Index/Index'
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 import Aboutus from './pages/Aboutus/Aboutus'
+import Contactus from './pages/Contactus/Contactus'
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Index />}/>
       <Route path='/aboutus' element={<Aboutus />}/>
+      <Route path='/contactus' element={<Contactus />}/>
     </Routes>
     <Footer />
     </BrowserRouter>
