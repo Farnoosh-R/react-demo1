@@ -98,7 +98,7 @@ const Contactus = () => {
                 placeholder="phone"
                 onChange={handleChange}
               />
-              <button type="submit" className="btn w-[25%] mx-auto">
+              <button type="submit" className="btn w-[100px] mx-auto">
                 Submit
               </button>
             </form>

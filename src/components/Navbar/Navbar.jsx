@@ -17,8 +17,8 @@ const menuHandler = () => {
         <a href="/react-demo1/" className="font-medium text-pink-500">IceCream</a>
       </div>
 
-      <div ref={menu} className="absolute md:static top-[100%] left-[-100%] md:left-[0%] transition-all duration-500 z-999">
-        <ul className="w-full flex flex-col md:flex-row gap-4 justify-center bg-white w-full">
+      <div ref={menu} className="absolute w-full md:static top-[100%] left-[-100%] md:left-[0%] transition-all duration-500 z-999">
+        <ul className="w-full flex flex-col md:flex-row gap-4 justify-center bg-white">
           <li className="nav-wrapper">
             {/* <NavLink className="navlink" to="/">Home</NavLink> */}
             <a className="font-bold" href="/react-demo1/">Home</a>
